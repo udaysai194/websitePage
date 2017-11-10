@@ -1,0 +1,113 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+body {
+	background-color: #eeeeee;
+}
+.tm-container{
+	max-width: 1200px;
+	margin : 20px auto;
+}
+.tm-content{
+	max-width: 70%;
+	background-color: white;
+	float : left;
+}
+img{
+	max-width: 100%;
+}
+.tm-header {
+	background-color: #9932CC;
+}
+.tm-header::after{
+	content: " ";
+	clear: both;
+	display: block;
+	visibility: none;
+}
+.tm-nav{
+	float: right;
+
+}
+.tm-logo{
+	float: left;
+	margin-bottom: 4px;
+}
+
+.tm-nav ul li{
+	display: inline-block;
+	list-style-type: none;
+}
+.tm-nav ul li a{
+	color: black;
+	padding: 10px 20px;
+	text-decoration: none;
+	line-height: 63px;
+	font-family: helvetica;
+	font-size: 13px;
+
+}
+.tm-nav ul li a:hover{
+	color: #10F7E9;
+}
+
+.tm-article {
+	padding : 20px 10px;
+
+}
+.tm-article h3{
+	margin-bottom: 6px;
+}
+
+.tm-sidebar {
+	background-color: white;
+	max-width: 28%;
+	width: 28%;
+	float: right;
+}
+.tm-sidebar div{
+	padding: 30px;
+}
+.tm-sidebar div ul {
+	padding: 8px 20px;
+	list-style-type: square;
+}
+.tm-sidebar div ul a{
+	text-decoration: none;
+
+}
+.tm-sidebar div h3{
+	padding-bottom: 5px;
+
+}
+
+
+/*IT IS A TRICK TO CLEAR A DIV OR A SPAN OR BLOCK OF TEXT */
+.clearfix::after{
+	content: " ";
+	clear: both;
+	display: block;
+	visibility: none;
+}
+footer {
+ 	text-align: center;
+ 	background-color: white;
+ 	padding: 20px 0px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
